@@ -34,7 +34,7 @@ function Card({ frontImg, bio, flipSound }) {
             bgSize="cover"
             bgPosition="center"
             borderRadius="12px"
-          borderColor="#FF2400"
+          borderColor="#B22222"
           borderWidth="3px"
             w="100%"
             h="100%"
@@ -52,7 +52,7 @@ function Card({ frontImg, bio, flipSound }) {
           w="100%"
           h="100%"
           borderRadius="12px"
-          borderColor="#FF2400"
+          borderColor="#B22222"
           borderWidth="3px"
           display="flex"
           flexDirection="column"
@@ -79,42 +79,42 @@ function PlayerCards() {
 
   const players = [
     {
-      frontImg: "volleyball-girl-1.png",
+      frontImg: "volleyball-placeholder.png",
       name: "Danica McGarity",
       bio: "Danica McGarity is a dominant outside hitter, known for her powerful spikes that leave defenders scrambling at the net."
     },
     {
-      frontImg: "volleyball-girl-1.png",
+      frontImg: "volleyball-placeholder.png",
       name: "Danica McGarity",
       bio: "Danica McGarity’s precise serves are a nightmare for opponents, consistently finding gaps in the defense and earning aces."
     },
     {
-      frontImg: "volleyball-girl-1.png",
+      frontImg: "volleyball-placeholder.png",
       name: "Danica McGarity",
       bio: "With an unmatched volleyball IQ, Danica McGarity reads the game like no other, always positioning herself perfectly for crucial digs and blocks."
     },
     {
-      frontImg: "volleyball-girl-1.png",
+      frontImg: "volleyball-placeholder.png",
       name: "Danica McGarity",
       bio: "Under pressure, Danica McGarity thrives, delivering game-winning spikes and blocks that seal victories in the tightest matches."
     },
     {
-      frontImg: "volleyball-girl-1.png",
+      frontImg: "volleyball-placeholder.png",
       name: "Danica McGarity",
       bio: "Danica McGarity’s impeccable defense makes her a top libero, consistently diving for seemingly unreachable balls to keep rallies alive."
     },
     {
-      frontImg: "volleyball-girl-1.png",
+      frontImg: "volleyball-placeholder.png",
       name: "Danica McGarity",
       bio: "A versatile setter, Danica McGarity expertly distributes the ball, setting up her teammates for perfectly timed attacks at the net."
     },
     {
-      frontImg: "volleyball-girl-1.png",
+      frontImg: "volleyball-placeholder.png",
       name: "Danica McGarity",
       bio: "Known for her ability to rise in the clutch, Danica McGarity delivers high-pressure serves and spikes when her team needs them the most."
     },
     {
-      frontImg: "volleyball-girl-1.png",
+      frontImg: "volleyball-placeholder.png",
       name: "Danica McGarity",
       bio: "Her mid-court defense and blocking skills make Danica McGarity a constant presence at the net, frustrating attackers with her towering reach."
     },
@@ -135,10 +135,10 @@ function PlayerCards() {
       mt={{ base: 12, md: 16 }} 
       mb={{ base: 12, md: 16 }} 
     >
-      <Text fontSize="4xl" fontWeight="medium" color="#FF2400" fontFamily="'Passion One', sans-serif">
+      <Text fontSize="4xl" fontWeight="medium" color="#F5F5DC" fontFamily="'Passion One', sans-serif">
         Player Cards    
       </Text>
-      <Text fontSize="2xl" fontWeight="medium" color="#FF2400" fontFamily="'Passion One', sans-serif">
+      <Text fontSize="2xl" fontWeight="medium" color="#F5F5DC" fontFamily="'Passion One', sans-serif">
         Click on card for more info
         </Text>
 

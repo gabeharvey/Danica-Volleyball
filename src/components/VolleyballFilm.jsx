@@ -9,11 +9,11 @@ function VideoCard({ videoSrc, title, description }) {
         h="100%"
         borderRadius="12px"
         borderWidth="4px"
-        borderColor="#FF2400"
+        borderColor="#B22222"
         boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
         overflow="hidden"
-        bgColor="#FF2400"
-        bgImage="linear-gradient(-45deg, #FF2400 25%, transparent 25%, transparent 50%, #FF2400 50%, #FF2400 75%, transparent 75%, transparent)"
+        bgColor="#B22222"
+        bgImage="linear-gradient(-45deg, #B22222 25%, transparent 25%, transparent 50%, #B22222 50%, #B22222 75%, transparent 75%, transparent)"
         bgSize="1px 1px"
         display="flex"
         flexDirection="column"
@@ -103,7 +103,7 @@ function VolleyballFilm() {
       mt={{ base: 12, md: 16 }}
       mb={{ base: 12, md: 16 }}
     >
-      <Text fontSize="4xl" fontWeight="medium" color="#FF2400" fontFamily="'Passion One', sans-serif">
+      <Text fontSize="4xl" fontWeight="medium" color="#F5F5DC" fontFamily="'Passion One', sans-serif">
         Volleyball Film
       </Text>
       <SimpleGrid columns={columns} spacing={{ base: 3, sm: 5 }} justifyItems="center">

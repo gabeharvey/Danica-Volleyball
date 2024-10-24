@@ -66,7 +66,7 @@ const Navbar = () => {
 
     return (
         <Box
-            bgColor="#FF2400"
+            bgColor="#B22222"
             borderBottomRadius="12px"
             py="2.5rem"
             px="2rem"
@@ -181,7 +181,7 @@ const Navbar = () => {
                     >
                         <Box
                             ref={menuRef}
-                            bgColor="#FF2400"
+                            bgColor="#B22222"
                             p="1rem"
                             borderTopLeftRadius="30px"
                             borderBottomLeftRadius="30px"

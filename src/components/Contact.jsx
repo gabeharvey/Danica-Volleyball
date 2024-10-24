@@ -16,7 +16,7 @@ function Contact() {
       bgRepeat="no-repeat"
       mb={16}
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#FF2400" fontFamily="'Passion One', sans-serif">
+      <Heading fontSize="4xl" fontWeight="medium" color="#F5F5DC" fontFamily="'Passion One', sans-serif">
         Contact Us
       </Heading>
       
@@ -26,7 +26,7 @@ function Contact() {
         bgImage="linear-gradient(-45deg, #38393d 25%, transparent 25%, transparent 50%, #38393d 50%, #38393d 75%, transparent 75%, transparent)"
         bgSize="1px 1px"
         borderRadius="12px"
-        borderColor="#FF2400"
+        borderColor="#B22222"
         borderWidth="4px"
         boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
         p={6}
@@ -78,7 +78,7 @@ function Contact() {
 
           <Button
             mt={4}
-            bgColor="#FF2400"
+            bgColor="#B22222"
             color="#F5F5DC"
             minW="100%"
             maxW="45%"
@@ -87,7 +87,7 @@ function Contact() {
             fontWeight="medium"
             fontSize="xl"
             borderRadius="8px"
-            borderColor="#FF2400"
+            borderColor="#B22222"
             borderWidth="3px"
             _hover={{ borderColor: '#F5F5DC' }}
           >

@@ -4,7 +4,7 @@
 
 #root {
   font-family: "Passion One", sans-serif;
-  background-color: #2C2C2C;
+  background-color: #003153;
 }
 
 .zoom-in {
@@ -71,11 +71,11 @@
 }
 
 .footer {
-  background-color: #FF2400; 
+  background-color: #B22222; 
   font-family: "Passion One", sans-serif;
   padding: 20px;
   text-align: center;
-  background-image: linear-gradient(-45deg, #FF2400 25%, transparent 25%, transparent 50%, #FF2400 50%, #FF2400 75%, transparent 75%, transparent);
+  background-image: linear-gradient(-45deg, #B22222 25%, transparent 25%, transparent 50%, #B22222 50%, #B22222 75%, transparent 75%, transparent);
   background-size: 1px 1px;
 }
 

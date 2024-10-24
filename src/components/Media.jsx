@@ -17,7 +17,7 @@ function Media() {
 
   return (
     <VStack spacing={10} p={6} mt={12} align="center"> 
-      <Heading fontSize="4xl" fontWeight="medium" color="#FF2400" fontFamily="'Passion One', sans-serif" mb="5">
+      <Heading fontSize="4xl" fontWeight="medium" color="#F5F5DC" fontFamily="'Passion One', sans-serif" mb="5">
         Media Coverage
       </Heading>
       <Flex direction="column" alignItems="center" width="100%">
@@ -30,7 +30,7 @@ function Media() {
             bgColor="#ebebeb"
             borderRadius="12px"
             borderWidth="4px"
-            borderColor="#FF2400"
+            borderColor="#B22222"
             boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
             p={4}
             display="flex"
@@ -46,7 +46,7 @@ function Media() {
               fontWeight="bold"
               fontSize="lg" 
               p={3} 
-              _hover={{ color: '#FF2400', textDecoration: 'underline' }}
+              _hover={{ color: '#B22222', textDecoration: 'underline' }}
             >
               {article.title}
             </Link>
