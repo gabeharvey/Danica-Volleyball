@@ -46,7 +46,7 @@ function Media() {
               fontWeight="bold"
               fontSize="lg" 
               p={3} 
-              _hover={{ color: '#e47608', textDecoration: 'underline' }}
+              _hover={{ color: '#FF2400', textDecoration: 'underline' }}
             >
               {article.title}
             </Link>

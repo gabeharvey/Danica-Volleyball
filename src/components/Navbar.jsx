@@ -140,7 +140,7 @@ const Navbar = () => {
                     justifyContent="space-evenly"
                     whiteSpace="nowrap"
                 >
-                    {['PLAYER BIO', 'VOLLEYBALL FILM', 'PLAYER CARDS', 'STAT TRACKER', 'OFFERS', 'CONTACT'].map((text, index) => (
+                    {['PLAYER BIO', 'VOLLEYBALL FILM', 'PLAYER CARDS', 'STAT TRACKER', 'ACADEMICS', 'OFFERS', 'CONTACT'].map((text, index) => (
                         <ChakraLink
                             key={index}
                             as={ScrollLink}
@@ -209,7 +209,7 @@ const Navbar = () => {
                             </Flex>
                             {/* <Divider /> */}
                             <Flex as="ul" flexDirection="column" alignItems="flex-start" gap="1rem" mt="1rem">
-                                {['PLAYER BIO', 'VOLLEYBALL FILM', 'PLAYER CARDS', 'STAT TRACKER', 'OFFERS', 'CONTACT'].map((text, index) => (
+                                {['PLAYER BIO', 'VOLLEYBALL FILM', 'PLAYER CARDS', 'STAT TRACKER', 'ACADEMICS', 'OFFERS', 'CONTACT'].map((text, index) => (
                                     <ChakraLink
                                         key={index}
                                         as={ScrollLink}
