@@ -79,42 +79,42 @@ function PlayerCards() {
 
   const players = [
     {
-      frontImg: "Danica-1.png",
+      frontImg: "danica-1.png",
       name: "Danica McGarity",
       bio: "Danica McGarity is a dominant outside hitter, known for her powerful spikes that leave defenders scrambling at the net."
     },
     {
-      frontImg: "Danica-1.png",
+      frontImg: "danica-1.png",
       name: "Danica McGarity",
       bio: "Danica McGarity’s precise serves are a nightmare for opponents, consistently finding gaps in the defense and earning aces."
     },
     {
-      frontImg: "Danica-1.png",
+      frontImg: "danica-1.png",
       name: "Danica McGarity",
       bio: "With an unmatched volleyball IQ, Danica McGarity reads the game like no other, always positioning herself perfectly for crucial digs and blocks."
     },
     {
-      frontImg: "Danica-1.png",
+      frontImg: "danica-1.png",
       name: "Danica McGarity",
       bio: "Under pressure, Danica McGarity thrives, delivering game-winning spikes and blocks that seal victories in the tightest matches."
     },
     {
-      frontImg: "Danica-1.png",
+      frontImg: "danica-1.png",
       name: "Danica McGarity",
       bio: "Danica McGarity’s impeccable defense makes her a top libero, consistently diving for seemingly unreachable balls to keep rallies alive."
     },
     {
-      frontImg: "Danica-1.png",
+      frontImg: "danica-1.png",
       name: "Danica McGarity",
       bio: "A versatile setter, Danica McGarity expertly distributes the ball, setting up her teammates for perfectly timed attacks at the net."
     },
     {
-      frontImg: "Danica-1.png",
+      frontImg: "danica-1.png",
       name: "Danica McGarity",
       bio: "Known for her ability to rise in the clutch, Danica McGarity delivers high-pressure serves and spikes when her team needs them the most."
     },
     {
-      frontImg: "Danica-1.png",
+      frontImg: "danica-1.png",
       name: "Danica McGarity",
       bio: "Her mid-court defense and blocking skills make Danica McGarity a constant presence at the net, frustrating attackers with her towering reach."
     },
