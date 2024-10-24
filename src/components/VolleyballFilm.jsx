@@ -48,7 +48,7 @@ function VolleyballFilm() {
         {
           videoSrc: "Danica-volley-1.MOV",
           title: "Danica's Game-Winning Spike",
-          description: "Clutch Point to Win the Match",
+          description: "Clutch Point",
         },
         {
           videoSrc: "Danica-volley-2.mov",
