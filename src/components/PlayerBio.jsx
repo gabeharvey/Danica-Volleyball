@@ -56,7 +56,7 @@ function PlayerProfile() {
           bgSize="1px 1px"
           borderRadius="12px"
           borderWidth="5px"
-          borderColor="#FF2400"
+          borderColor="#B22222"
           boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
           p={6}
           initial={{ scale: 0.9, opacity: 0.5 }}
