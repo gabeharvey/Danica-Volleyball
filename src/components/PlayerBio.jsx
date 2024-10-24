@@ -17,7 +17,7 @@ function PlayerProfile() {
       { title: "Height", description: "5'5\"" },
       { title: "Weight", description: "105 lbs" },
       { title: "Hometown", description: "San Antonio, TX" },
-      { title: "High School", description: "Incarnate Word" },
+      { title: "High School", description: "Antonian" },
     ],
   };
 
