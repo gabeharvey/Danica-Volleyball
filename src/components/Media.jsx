@@ -17,7 +17,7 @@ function Media() {
 
   return (
     <VStack spacing={10} p={6} mt={12} align="center"> 
-      <Heading fontSize="4xl" fontWeight="medium" color="#BF5700" fontFamily="'Passion One', sans-serif" mb="5">
+      <Heading fontSize="4xl" fontWeight="medium" color="#FF2400" fontFamily="'Passion One', sans-serif" mb="5">
         Media Coverage
       </Heading>
       <Flex direction="column" alignItems="center" width="100%">
@@ -30,7 +30,7 @@ function Media() {
             bgColor="#ebebeb"
             borderRadius="12px"
             borderWidth="4px"
-            borderColor="#BF5700"
+            borderColor="#FF2400"
             boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
             p={4}
             display="flex"

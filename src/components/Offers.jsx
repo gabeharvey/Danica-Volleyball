@@ -26,7 +26,7 @@ function Offers() {
       bgRepeat="no-repeat"
       mt={12}
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#BF5700" fontFamily="'Passion One', sans-serif" mb="5">
+      <Heading fontSize="4xl" fontWeight="medium" color="#FF2400" fontFamily="'Passion One', sans-serif" mb="5">
         Scholarship Offers
       </Heading>
       <Flex
@@ -46,7 +46,7 @@ function Offers() {
             bgSize="1px 1px"
             borderRadius="12px"
             borderWidth="5px"
-            borderColor="#BF5700"
+            borderColor="#FF2400"
             boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
             p={4}
             display="flex"

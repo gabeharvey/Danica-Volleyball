@@ -66,14 +66,14 @@ const Navbar = () => {
 
     return (
         <Box
-            bgColor="#BF5700"
+            bgColor="#FF2400"
             borderBottomRadius="12px"
             py="2.5rem"
             px="2rem"
             position="relative"
             boxShadow="lg"
             mb="10px"
-            fontFamily="'Passion One', sans-serif"
+            fontFamily="'Roboto Condensed', sans-serif"
         >
             <Flex alignItems="center" justifyContent="space-between" wrap="wrap">
                 <Flex
@@ -153,7 +153,7 @@ const Navbar = () => {
                             fontWeight="extrabold"
                             color="#F5F5DC"
                             position="relative"
-                            _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#e47608' }}
+                            _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#2C2C2C' }}
                             _after={{
                                 content: '""',
                                 position: 'absolute',
@@ -161,7 +161,7 @@ const Navbar = () => {
                                 left: 0,
                                 width: '0%',
                                 height: '2px',
-                                bg: '#e47608',
+                                bg: '#2C2C2C',
                                 transition: 'width 0.3s ease',
                             }}
                             _hoverAfter={{ width: '100%' }}
@@ -181,7 +181,7 @@ const Navbar = () => {
                     >
                         <Box
                             ref={menuRef}
-                            bgColor="#BF5700"
+                            bgColor="#FF2400"
                             p="1rem"
                             borderTopLeftRadius="30px"
                             borderBottomLeftRadius="30px"
@@ -222,7 +222,7 @@ const Navbar = () => {
                                         fontWeight="extrabold"
                                         color="#F5F5DC"
                                         position="relative"
-                                        _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#e47608' }}
+                                        _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#2C2C2C' }}
                                         style={{ cursor: 'pointer' }}
                                     >
                                         {text}

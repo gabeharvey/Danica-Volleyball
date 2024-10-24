@@ -77,7 +77,7 @@ function VolleyballStatTracker() {
       bgRepeat="no-repeat"
       mt={16}
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#BF5700" fontFamily="'Passion One', sans-serif">
+      <Heading fontSize="4xl" fontWeight="medium" color="#FF2400" fontFamily="'Passion One', sans-serif">
         Volleyball Stat Tracker
       </Heading>
       <Flex gap={4} mb={6} justifyContent="center">
@@ -87,7 +87,7 @@ function VolleyballStatTracker() {
           borderRadius="12px"
           p={4}
           boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
-          borderColor="#BF5700"
+          borderColor="#FF2400"
           borderWidth="4px"
         >
           <Text 
@@ -149,7 +149,7 @@ function VolleyballStatTracker() {
         bgImage="linear-gradient(-45deg, #38393d 25%, transparent 25%, transparent 50%, #38393d 50%, #38393d 75%, transparent 75%, transparent)"
         bgSize="1px 1px"
         borderRadius="12px"
-        borderColor="#BF5700"
+        borderColor="#FF2400"
         borderWidth="4px"
         boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
         p={6}
@@ -254,7 +254,20 @@ function VolleyballStatTracker() {
               type="number"
             />
           </FormControl>
-          <Button colorScheme="green" onClick={handleAddGame}>
+          <Button             mt={4}
+            bgColor="#FF2400"
+            color="#F5F5DC"
+            minW="100%"
+            maxW="45%"
+            alignSelf="center"
+            fontFamily="'Passion One', sans-serif"
+            fontWeight="medium"
+            fontSize="xl"
+            borderRadius="8px"
+            borderColor="#FF2400"
+            borderWidth="3px"
+            _hover={{ borderColor: '#F5F5DC' }}
+            onClick={handleAddGame}>
             Add Game
           </Button>
         </VStack>

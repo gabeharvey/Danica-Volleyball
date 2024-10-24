@@ -8,7 +8,7 @@ const MotionBox = motion.create(Box);
 
 function PlayerProfile() {
   const player = {
-    frontImg: "danica-1.png",
+    frontImg: "volleyball-girl-1.png",
     secondImg: "basketball-placeholder.png",
     name: "Player Bio", 
     bioCategories: [
@@ -27,7 +27,7 @@ function PlayerProfile() {
       p={6}
       mt={12} 
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#BF5700" fontFamily="'Passion One', sans-serif" mb="5">
+      <Heading fontSize="4xl" fontWeight="medium" color="#FF2400" fontFamily="'Passion One', sans-serif" mb="5">
         {player.name}
       </Heading>
       <Flex flexDirection="row" flexWrap="wrap" justifyContent="center" alignItems="center">
@@ -56,7 +56,7 @@ function PlayerProfile() {
           bgSize="1px 1px"
           borderRadius="12px"
           borderWidth="5px"
-          borderColor="#BF5700"
+          borderColor="#FF2400"
           boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
           p={6}
           initial={{ scale: 0.9, opacity: 0.5 }}
